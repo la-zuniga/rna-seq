@@ -1,5 +1,5 @@
 A Nextflow DSL2 pipeline for single-cell RNA-seq analysis, from raw FASTQ files through clustering, differential expression, and pathway analysis. Built around STARsolo for alignment/quantification and Scanpy for downstream single-cell processing.
-##Pipeline Overview
+**Pipeline Overview**
 The pipeline chains together the following steps:
 
 STAR Index — Builds a STAR genome index from a reference FASTA and GTF annotation.
@@ -14,7 +14,7 @@ Scanpy Cluster — Dimensionality reduction (PCA, UMAP) and cell clustering with
 Pseudobulk DE (optional) — Pseudobulk differential expression analysis.
 Pathway Analysis (optional) — Functional enrichment on DE results.
 
-##Requirements:
+**Requirements:**
 
 Nextflow (DSL2-compatible, ≥ 21.04)
 STAR
@@ -22,7 +22,7 @@ FastQC
 MultiQC
 Python 3 with Scanpy
 
-##Output
+**Output**
 Results are written to the directory specified by --outdir and include:
 
 FastQC / MultiQC reports — HTML quality summaries
