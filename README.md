@@ -39,8 +39,13 @@ Python 3 with Scanpy
 
 Results are written to the directory specified by --outdir and include:
 
-FastQC / MultiQC reports — HTML quality summaries
-STARsolo outputs — BAM files, count matrices, and alignment logs
-Scanpy objects — Filtered, preprocessed, and annotated .h5ad files at each stage
-DE results — Pseudobulk differential expression tables (when --run_de is enabled)
-Pathway analysis — Enrichment results from DE gene sets (when --run_de is enabled)
+FastQC / MultiQC reports: HTML quality summaries
+
+STARsolo outputs: BAM files, count matrices, and alignment logs
+
+Scanpy objects: Filtered, preprocessed, and annotated .h5ad files at each stage
+
+DE results: Pseudobulk differential expression tables (when --run_de is enabled)
+
+Pathway analysis: Enrichment results from DE gene sets (when --run_de is enabled)
+
