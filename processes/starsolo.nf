@@ -14,7 +14,6 @@ process starsolo {
     path("${sample_id}_Log.final.out")
 
     script:
-    // R2 (cDNA) before R1 (barcode+UMI) -- STARsolo convention
     """
     STAR --genomeDir ${star_index} \
          --readFilesIn ${reads[1]} ${reads[0]} \
